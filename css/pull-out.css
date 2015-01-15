@@ -1,0 +1,31 @@
+
+.slide.in {
+  left: 0px;
+}
+.slide {
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  background: white;
+  z-index: 1;
+}
+.slide .slideTab {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  z-index: -1;
+}
+.slide .slideTab a {
+  padding-left: 20px;
+}
+.slide .sidebar {
+  background-color: white;
+  border-right: 2px solid #cccccc;
+  padding-left: 20px;
+}
